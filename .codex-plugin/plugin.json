@@ -1,0 +1,14 @@
+{
+  "name": "r-replication-package",
+  "version": "1.0.0",
+  "description": "Prepare structured research replication packages with readable R code and verified modelsummary tables.",
+  "author": {
+    "name": "oooooranger"
+  },
+  "repository": "https://github.com/oooooranger/r-replication-package",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "论文结构化复现",
+    "shortDescription": "按文章结构整理复现数据与简明R代码，导表并核验独立运行"
+  }
+}
