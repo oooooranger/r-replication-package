@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "r-replication-package",
+  "version": "1.0.0",
+  "description": "Prepare readable, independently runnable research replication packages with explicit R models, modelsummary tables, and result verification.",
+  "author": {
+    "name": "oooooranger"
+  },
+  "repository": "https://github.com/oooooranger/r-replication-package",
+  "homepage": "https://github.com/oooooranger/r-replication-package",
+  "keywords": ["research", "replication", "R", "econometrics", "fixest", "modelsummary", "skills"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "论文结构化复现",
+        "shortDescription": "按文章结构整理复现数据与简明R代码，导表并核验独立运行",
+        "longDescription": "Organize replication data and explicit R code by manuscript sections, export tables from fitted models, compare results with the manuscript, and verify execution from a clean directory.",
+        "defaultPrompt": [
+          "使用 $r-replication-package，按我指定的论文、分析范围和目录结构整理可独立运行的复现数据与代码。"
+        ]
+      }
+    }
+  }
+}
