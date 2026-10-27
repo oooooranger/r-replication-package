@@ -1,0 +1,7 @@
+interface:
+  display_name: "论文结构化复现"
+  short_description: "按文章结构整理复现数据与简明R代码，导出表格并核验独立运行"
+  default_prompt: "使用 $r-replication-package，按我指定的论文、分析范围和目录结构整理可独立运行的复现数据与代码。"
+
+policy:
+  allow_implicit_invocation: false
